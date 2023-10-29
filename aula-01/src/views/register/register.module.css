@@ -1,0 +1,37 @@
+.container {
+    background-color: brown;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 7px;
+}
+form {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1c1c1c;
+}
+h1 {
+    color: white;
+    margin-bottom: 2rem;
+}
+.buttonGroup {
+    display: flex;
+    gap: 20px;
+}
+button {
+    width: 77px;
+    padding: 7px;
+    cursor: pointer;
+    border-radius: 7px;
+}
